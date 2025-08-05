@@ -23,6 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 33
+    namespace "com.zebra.rfidsdkplugin"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
